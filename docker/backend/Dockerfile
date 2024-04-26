@@ -14,7 +14,7 @@ ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war /opt/apache-to
 
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar /opt/apache-tomcat-8.5.100/lib/mysql-connector.jar
 
-COPY context.xml /opt/apache-tomcat-8.5.100/bin/context.xml
+COPY context.xml /opt/apache-tomcat-8.5.100/conf/context.xml
 
 EXPOSE 8080
 
