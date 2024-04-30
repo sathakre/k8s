@@ -19,7 +19,7 @@
 <Context>
 <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
            maxTotal="500" maxIdle="30" maxWaitMillis="1000"
-           username="root" password="1234" driverClassName="com.mysql.jdbc.Driver"
+           username="admin" password="copy1234" driverClassName="com.mysql.jdbc.Driver"
            url="jdbc:mysql://54.90.234.90:3306/studentapp"/>
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
