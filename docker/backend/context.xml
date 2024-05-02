@@ -20,7 +20,7 @@
 <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
            maxTotal="500" maxIdle="30" maxWaitMillis="1000"
            username="admin" password="copy1234" driverClassName="com.mysql.jdbc.Driver"
-           url="jdbc:mysql://database-1.cbkqi6ay8npa.ap-northeast-1.rds.amazonaws.com:3306/studentapp"/>
+           url="jdbc:mysql://database-1.chsk28ugu6zl.ap-southeast-2.rds.amazonaws.com:3306/studentapp"/>
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
